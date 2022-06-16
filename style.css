@@ -298,13 +298,12 @@ h1 a:hover {
 /* FINAL SHARE WITH BBC Social Platform Section STYLIZERS */
 
 #shareWithBBC {
-    background-size: 100% 100%;;
+    /* background-size: 100% 100%; */
+    background-size: contain;
     background-color: #00000030;    
     align-items: center;
-    /* margin-left: 500px; */
     float: left;
     width: max-content; 
-    margin: 0 auto;
 }
 #shareWithBBC h3 {
     margin-left: 0px;
