@@ -1,0 +1,372 @@
+body{
+    background-color: rgba(186, 0, 0, 0);
+}
+
+h2 {
+    margin-left: 120px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.techBarId{
+    width: 115px;
+    text-align: center;
+    border-radius: 5em;
+    background-color: blue;
+    border-bottom: 3px solid #a91717;
+    margin-left: -30px;
+    color: white;
+    
+}
+h1 a {
+    color: black;
+    text-decoration: none;
+    margin-left: -23px;
+    float: left;
+}
+h1 a:hover {
+    color: #1167A8;
+}
+
+
+/** stylse the sign in text */
+#signIn{
+    color: rgb(0, 98, 255);
+}
+
+
+/** stylse the sign in logo, better with FLEX but not needed */
+#img_signin{
+    display: flex;
+    border: dashed;
+    color: rgb(255, 0, 0);
+}
+
+
+/* stylises the big NEWS bar under the More Info tab */
+#bigNewsBar{
+    color: aliceblue;
+    background-color: rgba(255, 0, 0, 0.696);
+}
+
+/** this is the border for 2nd menu tab, I am using flexbox to keep the container spaced and accessible when shrinknig window */
+.newBarContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1350;
+    height: 60px;
+    background-color: #BB1919;
+    border-top: 1px #cccccc solid;
+    
+}
+
+.newBarContainer subMenu{
+    float: left;
+    border-left: 1px solid #BB4545;
+    height: 25px;
+    padding-left: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+/** what the tab based items look like with FLEX */
+.tabItems{
+    display: flex;
+    padding: 5px; /*for spacing them*/
+    background-color: rgba(165, 42, 42, 0.363);
+}
+
+/* This stylsises the menu tab below the NEWS header section */
+.menu2 {
+    width: 1350px;
+    height: 42px;
+    background-color: #A91717;
+}
+.menu2item {
+    float: left;
+    margin-top: -100px;
+    border-radius: 1em;
+    border-left: 1px solid #BB4545;
+    height: 25px;
+    padding-left: 10px;
+    margin: 10px 10px 0 10px;
+}
+
+.menu2item a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.menu2item a:hover{
+    color: black;
+}
+.menu2_home {
+    float: left;
+    height: 25px;
+    border-left: none;
+    margin-left: 145px;
+    margin-top: 10px;
+}
+
+/* set width and margin for the news sections */
+#newPageCont{
+    width: 1300px;
+    margin: 0 auto;
+}
+/* and then for the articles section */
+#articleExCont{
+    width: 700px;
+    float: left;
+    padding-right: 20px;
+}
+/* I am not sure why disbling this option automatically adds change color during hovering, DBT ?? */
+#articleExCont a:hover{
+    text-decoration-color: none;
+    color: #042940;
+}
+
+/* stylises the first article on CodeNation  */
+#indivArticleIds {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 600px;
+    float: left;
+    font-size: 20px;
+
+}
+/* stylise the text bit of the first article, text-decoration removes any preset text underlines */
+#indivArticleIds a{
+    color: #042940;
+    text-decoration: none;
+}
+#indivArticleIds a:hover{
+    color: #009dff;
+}
+
+
+/* stylises the time of article 1 publication text */
+#timeOf1stArticle{
+    color: #005eff;
+    margin-top: 40px;
+    width: 260px;
+}
+
+.articleTimer a {
+    color: #BB4545;
+}
+
+#articleLink2{
+    color: #000000;
+}
+
+
+#furtherArticleLinks a:hover{
+    color: blue;
+}
+/* settings for the further articles */
+.furtherArtTxts{
+    margin-top: -6px;
+}
+
+/* Commented below since auto settnings are better */
+/* #furtthArtImage{
+    width: 300;
+    height: 190;
+} */
+#furtherArticlesHr {
+    width: 450px;
+    margin-top: 3px;
+    margin-left: 1px;
+    margin-bottom: 3px;
+    background-color: #00000036;
+    height: 1px;
+    border: none;
+}
+
+#cat3Section{
+    float: left;
+    width: 700px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+#cat3SubImgSection{
+    float: left;
+    width: 182px;
+    border-right: 1px solid #DBDBDB;
+    padding-right: 10px;
+}
+
+.cat3Img img{
+    width: 180px;
+}
+.cat3Subtitle{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.cat3SubPara{
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 14px;
+    float: left;
+}
+.cat3TimerPicture{
+    float: left;
+    margin-top: 5px;
+}
+
+.cat3TimerPictureDate{
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 12px;
+    float: left;
+    margin-top: 9px;
+}
+#cat3ArtHeader{
+    width: 46px;
+    background-color: #a91717;
+    height: 1px;
+    border: none;
+    float: left;
+    margin-left: -20px;
+}
+.cat3ArtEND{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* RIGHT HAND PART SECTION */
+
+/* Below controls the red background on the Quick New Section */
+#rightFlow {  
+    /* align-content: space-between;              */
+    background-color: #ff005d52;
+    border-left: 1px solid #cccccc;
+    width: 500px;
+    margin-top: -800px;
+    margin-left: 750px;
+    margin-right: auto;
+}
+#rightFlow h3{
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 0px;
+}
+.sliderTitle {
+    text-align: left;
+    padding: 0%;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sliderDate {
+    text-decoration: none;
+    font-size: 12px;
+    color: #5a5a5a;
+    position: relative;
+    top: -20px;
+    
+}
+
+.slider a:hover {
+    color: #1167ab;
+}
+
+
+/* FINAL SHARE WITH BBC Social Platform Section STYLIZERS */
+
+#shareWithBBC {
+    background-size: 100% 100%;;
+    background-color: #00000030;    
+    align-items: center;
+    /* margin-left: 500px; */
+    float: left;
+    width: max-content; 
+    margin: 0 auto;
+}
+#shareWithBBC h3 {
+    margin-left: 0px;
+}
+#shareWithBBC a {
+    text-decoration: none;
+    color: black;
+}
+#shareWithBBC a:hover {
+    color: #1167A8;
+}
+#shareWithBBC img {
+    float: left;
+    margin-right: auto;
+    margin-top: -2px;
+}
+.shareWithBBCBold {
+    font-weight: bold;
+}
+#followUs {
+    float: left;
+    margin-left: 30px;
+    width: 400px;
+}
+#followUsPara {
+    color: black;
+    font-size: 20px;
+}
+#facebook {
+   float: left;
+   width: 150px;
+   height: 20px;
+   background: #f7f7f7;
+   margin-right: auto;
+   margin-bottom: 20px;
+   padding: 12px;
+   border-bottom: 4px solid #3C5A98;
+}
+.ftLink a {
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    left: 45px;
+    color: black;
+}
+.ftLink a:hover {
+    color: #1167ab;
+}
+#twitter {
+    float: left;
+    width: 150px;
+    height: 20px;
+    background: #f7f7f7;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-bottom: 4px solid #47C7FA;
+}
+#rss {
+    float: left;
+    width: 340px;
+    height: 20px;
+    background: #f7f7f7;
+    padding: 10px;
+    border-bottom: 4px solid black;
+}
+#rss a {
+    text-decoration: none;
+    position: relative;
+    top: 4px;
+    left: 130px;
+    color: black;
+}
+#rss a:hover {
+    color: #1167ab;
+}

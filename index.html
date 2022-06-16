@@ -1,0 +1,296 @@
+<html>
+
+<head>
+    <title>Assessment 2 - CodeNation - BBC Website Clone - Mahed Javed - 14_06_22</title>
+
+    <!-- Reference stylesheet below -->
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    </lnik>
+</head>
+
+
+
+
+<body>
+    <!-- 1) setup the logo first -->
+    <img id="logo" src="./img/logo.png" alt="logo"> Clone :)</img>
+
+    <!-- 2) Make a sign in section -->
+    <div id="signIn" class="topSection">
+
+        <!-- 2.1) Insert the icon for Logging -->
+        <img id="img_signin" src="./img/signin.png" alt="signin">Log In
+
+        <!-- 2.2) Other sections or tabs including [News] [Sports] [Weather] [Wildlife] [LifeStyle] [Celebrity Gossiping] [Music] -->
+        <div class="tabItems">
+            <a href=""> News</a>
+        </div>
+        <div class="tabItems">
+            <a href=""> Sports</a>
+        </div>
+        <div class="tabItems">
+            <a href=""> Weather</a>
+        </div>
+        <div class="tabItems">
+            <a href=""> Wildlife</a>
+        </div>
+        <div class="tabItems">
+            <a href=""> Health & LifeStyle</a>
+        </div>
+        <div class="tabItems">
+            <a href=""> Music</a>
+        </div>
+
+
+        <!-- 2.2) Have an dropdown menu image for more info -->
+        <div class="dropDownMenu">
+            <a href="http://">More Info</a>
+            <a href="http://"><img id="moreArrow" src="img/more.png" alt="more"></a>
+        </div>
+
+
+        <!--2.3) Add a Search Bar below the More Info dropdow -->
+        <div class="searchBarClass">
+            <input id="searchBarID" type="text" placeholder="Search Here ...">
+        </div>
+
+    </div>
+
+
+    <!-- 2.4) The main NEWS bar with red background BBC uses -->
+    <div id="bigNewsBar">
+        <h1>NEWS</h1>
+    </div>
+
+    <!-- 2.5) Repeat the bars above but as menus that appear horizontally under big NEWS bar -->
+    <!--menu bar container 2-->
+    <div class="menu2">
+        <div class="menu2item">
+            <a href="http://">Home</a>
+        </div>
+        <div class="menu2item">
+            <a href="http://">Sports</a>
+        </div>
+        <div class="menu2item">
+            <a href="http://">Weather</a>
+        </div>
+        <div class="menu2item">
+            <a href="http://">Wildlife</a>
+        </div>
+        <div class="menu2item">
+            <a href="http://">Health & LifeStyle</a>
+        </div>
+        <div class="menu2item">
+            <a href="http://">Music</a>
+        </div>
+    </div>
+
+
+
+    <!-- 3) Making the news headers on each story section -->
+    <div id="newPageCont">
+        <h2 class="techBarId">Technology</h2>
+
+        <!-- 3.1) Example articles -->
+        <div id="articleExCont">
+            <h1><a href=""> CodeNation master course kicks off with an alarming cohort level !</a></h1>
+
+            <div id="indivArticleIds">
+                <a href="">Britain's finest bootcamp open the doors of tech industries to individuals and deploy
+                    them in various locations across Midlands and beyond. The current cohort is set to exceed twice the
+                    size of a sixth form in the coming year. The students in the bootcamp are tasked with weekly
+                    exercise that entail learning JavaScript, HTML (HyperText Markup Language) and CSS (Cascading Style
+                    Sheets). The language and its ecosystem are considered to be some of the most vital tools for a
+                    Junior Web Developer. One of the learning course instructors states, "It is an amazing learning
+                    experience. Students are expected to deliver weekly assignments and also engage in extra-cirricuilar
+                    activities and debates, often between deciding between whether to prefer drinking coffee over water
+                    !"
+                </a><br>
+
+                <!-- 3.1.1) Set the update timer -->
+                <a id="timeOf1stArticle" href="https://">
+                    <img src="./img/timer.png" alt="t"> 23 hours ago |
+                </a>
+
+
+                <!-- 3.1.2) this is just a mention of location after time setting -->
+                <span id="articleLink2">Manchester</span>
+
+                <!-- 3.1.3) ADD MORE ARTICLES below the first one here -->
+                <hr id="furtherArticle">
+                <span id="furtherArticleLinks">
+                    <p><a href="">Language apps are lost in translation</a></p>
+                    <p class="furtherArtTxts"><a href="">Google Translate given grammar boost BBC News</a></p>
+                    <p class="furtherArtTxts"><a href="">Google Translate 'turns interpreter'</a></p>
+                    <p class="furtherArtTxts"><a href="">Pardon- Testing new Google Translate - BBC News</a></p>
+                </span>
+            </div>
+
+            <!-- 3.2) Add any images for the last bits of further smaller articles if needed -->
+            <div id="articleImage">
+                <img src="./img/facebook.png" alt="fb">
+            </div>
+
+            <!-- 3.3) Adding a white border below the further articles requires using the hr tag -->
+            <hr id="furtherArticlesHr">
+
+
+            <!-- 3.4) Category 3 articles after the Second Set of Articles place below the CN news -->
+            <!--sub category 3 div after main article-->
+            <div id="cat3Section">
+                <div class="cat3SubImgSection">
+                    <a class="cat3Img" href="http://"><img src="./img/sub1.png" alt="sub1" </a>
+                        <a class="cat3Subtitle" href="http://">
+                            <h3>New Tesla phone set to compete with the latest mobiles in the market !</h3>
+                        </a>
+                        <a class="cat3SubPara" href="http://">The Tesla's phone .</a>
+                        <a class="cat3TimerPicture" href="http://"><img src="./img/timerfinal.PNG" alt="t"></a>
+                        <a class="cat3TimerPictureDate" href="http://">23 October 2017 | Technology</a>
+                        <hr id="cat3ArtHeader">
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- The RIGHT HAND PART for VIDEO LINKS and BBC For Sharing Social Media Links -->
+            <!-- 3.5) More on Video Links (But In this exercise I mainly used images, Not Real Video tags [possible EXTENSION]) -->
+            <div id="rightFlow">
+                <h3>Quick Catchup News</h3>
+                <div class="slider">
+                    <!-- <a class="sliderPic" href="http://"><img src="./img/slider1.png" alt="slider1"></a> -->
+                    <a class="sliderTitle" href="http://">
+                        <h4>Actress Embers Unheard accussed of defecating on actor Bonny Legg's bed</h4>
+                    </a>
+                    <!-- <a class="sliderTimer" href="http://"><img src="./img/timerfinal.PNG" alt="timer"></a> -->
+                    <a class="sliderDate" href="http://">15 May 2022 | Celebrity Gossip </a>
+                </div>
+                <div class="slider">
+                    <!-- <a class="sliderPic" href="http://"><img src="./img/slider2.png" alt="slider1"></a> -->
+                    <a class="sliderTitle" href="http://">
+                        <h4>Bird watching regarded as one of the best healthy exercise</h4>
+                    </a>
+                    <!-- <a class="sliderTimer" href="http://"><img src="./img/timerfinal.PNG" alt="timer"></a> -->
+                    <a class="sliderDate" href="http://">15 January 2022 | Daily Health Guru</a>
+                </div>
+                <div class="slider">
+                    <!-- <a class="sliderPic" href="http://"><img src="./img/slider3.png" alt="slider1"></a> -->
+                    <a class="sliderTitle" href="http://">
+                        <h4>An apple a day keeps the doctor closer ? wait what ?</h4>
+                    </a>
+                    <!-- <a class="sliderTimer" href="http://"><img src="./img/timerfinal.PNG" alt="timer"></a> -->
+                    <a class="sliderDate" href="http://">18 October 2021 | Science of Health</a>
+                </div>
+                <div class="slider">
+                    <!-- <a class="sliderPic" href="http://"><img src="./img/slider4.png" alt="slider1"></a> -->
+                    <a class="sliderTitle" href="http://">
+                        <h4>Can we really trust robotic surgeons ?</h4>
+                    </a>
+                    <!-- <a class="sliderTimer" href="http://"><img src="./img/timerfinal.PNG" alt="timer"></a> -->
+                    <a class="sliderDate" href="http://">14 September 2021 | AI Today</a>
+                </div>
+                <div class="slider">
+                    <!-- <a class="sliderPic" href="http://"><img src="./img/slider5.png" alt="slider1"></a> -->
+                    <a class="sliderTitle" href="http://">
+                        <h4>"The return of COVID is eminent", says the health minister</h4>
+                    </a>
+                    <!-- <a class="sliderTimer" href="http://"><img src="./img/timerfinal.PNG" alt="timer"></a> -->
+                    <a class="sliderDate" href="http://">16 August 2021 | Politics </a>
+                </div>
+                <div class="slider">
+                    <!-- <a class="sliderPic" href="http://"><img src="./img/slider6.png" alt="slider1"></a> -->
+                    <a class="sliderTitle" href="http://">
+                        <h4>Master Chef star vomits on other contestants</h4>
+                    </a>
+                    <!-- <a class="sliderTimer" href="http://"><img src="./img/timerfinal.PNG" alt="timer"></a> -->
+                    <a class="sliderDate" href="http://">22 March 2021 | MattTVecilus</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <!--3.5) A Section on Sharing Websites and Social Media Linked to BBC channel-->
+            <div id="shareWithBBC">
+                <a href="http://">
+                    <h3>Share with BBC News</h3>
+                </a>
+                <img src="./img/phone.PNG" alt="phone">
+                <p>Send us an SMS or MMS to +44 7624800100</p>
+                <img src="./img/email.PNG" alt="email">
+                <p>Email us at <a class="shareWithBBCBold" href="http://">haveyoursay@bbc.co.uk</a></p>
+                <img src="./img/twitter.PNG" alt="twitter">
+                <p>Follow Have Your Say on <a class="shareWithBBCBold" href="http://">Twitter</a></p>
+            </div>
+
+            <!-- 3.6) Folloup section for BBC Sharing Sites -->
+            <div id="followUs">
+                <p id="followUsPara">Follow Us</p>
+                <!--facebook-->
+                <div id="facebook" class="ftLink">
+                    <a href="http://">Facebook</a>
+                </div>
+
+                <!--twitter-->
+                <div id="twitter" class="ftLink">
+                    <a href="http://">Twitter</a>
+                </div>
+
+                <!--RSS News Feed-->
+                <div id="rss">
+                    <a href="http://">RSS News Feed</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
