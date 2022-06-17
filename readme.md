@@ -15,6 +15,8 @@ below.
   [2] Implement with JavaScript to add further functionalities to the website.
   [3] Need to add configure the whole body to make sure it can be accessed when browser zoom level is increased
   [4] Add animations wherever necessary, also looking at media queries to be added next week (25/06/2022)
-  [5] Use GitHub to host the website (to be done @17/06/2022)
+  [5] [X Completed] Use GitHub to host the website (to be done @17/06/2022)
   
+  
+[Update]: Used Github to host website at : https://mahedjaved.github.io/m39week2/
  ------------------------------------------------------------------------------------------------------------------------
